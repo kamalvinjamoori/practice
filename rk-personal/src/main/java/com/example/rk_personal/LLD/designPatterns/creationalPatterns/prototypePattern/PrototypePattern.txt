@@ -1,0 +1,12 @@
+
+this is creation design pattern useful for creating objects
+
+best example is clone()
+when we want to copy/clone of the object Student we need to know about all the attributes of the Student class
+also if there are any private attributes/members we cant acces them outside it wont be possible to
+copy/clone of the object
+
+Hence by implementing a clone method inside of the object itself we can avoid this problem
+
+so whatever classes which implements ProtoType interface should override the clone method and
+they can be easily copied/cloned.
