@@ -1,0 +1,7 @@
+adapter pattern is basically acts as mediator b/w client and adaptee
+
+here WeightMachineAdapter is the adapter and the WeightMachine is adpatee
+
+
+when some client asks for weight in kgs adaptee cant have that functionality then adapter will
+serve the client.

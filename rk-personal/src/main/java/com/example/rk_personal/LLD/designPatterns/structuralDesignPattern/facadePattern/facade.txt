@@ -1,0 +1,1 @@
+This pattern helps to hide system complexity from the client

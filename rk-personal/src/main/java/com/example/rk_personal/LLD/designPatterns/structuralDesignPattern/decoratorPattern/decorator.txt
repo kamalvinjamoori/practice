@@ -1,0 +1,19 @@
+this is a structural design pattern.
+
+it prevents the class explosion;
+
+for example if we have classes of categories of pizza and toppings
+when we want to create objects of these classes, we might end up in creating lot of classes because of
+combinations possible
+
+
+example there are 3 classes of A,B,C
+
+how ever it is inevitable to create these 3 classes but imagine the combinations of these
+[A,B] ,[A,C], [B,C],[A,B,C]
+
+so we will end up creating a lot of classes to prevent this class explosion.
+
+Decorator pattern is very handy.
+
+** All the classes belongs to the same base class **
