@@ -10,6 +10,14 @@ import com.example.rk_personal.LLD.designPatterns.structuralDesignPattern.facade
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Objects;
+import java.util.Queue;
+
 @SpringBootApplication
 public class RkPersonalApplication {
 
@@ -22,6 +30,9 @@ public class RkPersonalApplication {
 		System.out.println("Total cost: " + pizza.getCost());
 		Tiger tiger = new Tiger(new LandBreathe());
 		tiger.breathProcess();
+		Map<Integer, Object> map = new HashMap<Integer, Object>();
+//		map.remove()
+		Queue<Map<Integer,Integer>> queue = new LinkedList<>();
 
 	}
 }
